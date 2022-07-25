@@ -65,12 +65,19 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.search input {
+  margin-right: 0.5em;
+}
+
 .grid {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 900px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .card {
@@ -82,7 +89,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .card:hover,
